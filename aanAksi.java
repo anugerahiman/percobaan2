@@ -1,14 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package percobaan2;
 
-/**
- *
- * @author user
- */
 public class aanAksi {
-    
+     public static void main(String[] args){
+       aan r1 = new aan();
+       r1.tinggi = 10;
+       r1.rendah = 4;
+       
+       r1.cetakInfo();
+       System.out.println("rendah retengel = "+r1.hitungbangunan());
+       r1.cetakbangunan();
+       
+       aan r2= new aan();
+       r2.cetakInfo();
+       
+       aan r3= new aan(10,40);
+       r3.cetakInfo();
+   } 
 }
