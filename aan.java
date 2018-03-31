@@ -14,5 +14,16 @@ public class aan {
         System.out.println("tinggi : "+tinggi);
         System.out.println("rendah :    "+rendah);
         System.out.println("===================");
-     
+        double hitungluas(){
+            double bangunan;
+            bangunan=tinggi*rendah;
+            return bangunan;
+         }
+        
+        void cetakluas(){
+            System.out.println("rendahnya adalah: "+hitungbangunan());
+        }
+    }
+    
+}
 }
